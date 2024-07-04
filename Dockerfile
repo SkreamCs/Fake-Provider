@@ -1,9 +1,9 @@
-FROM openjdk:17-slim
+FROM openjdk:21-slim
 
 WORKDIR /app
 
-COPY build/libs/Webflux-0.0.1-SNAPSHOT.jar /app/Webflux-0.0.1-SNAPSHOT.jar
+COPY build/libs/provider-0.0.1-SNAPSHOT.jar /app/provider-0.0.1-SNAPSHOT.jar
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "Webflux-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "provider-0.0.1-SNAPSHOT.jar"]
