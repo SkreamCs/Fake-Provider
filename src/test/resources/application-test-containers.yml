@@ -1,0 +1,7 @@
+spring:
+  r2dbc:
+    url: r2dbc:tc:postgresql:///test?TC_IMAGE_TAG=latest
+    username: mustafatumgoev
+    password: Zvezda002
+  flyway:
+    enabled: false
